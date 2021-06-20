@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/romerorocha/react-lib-boilerplate.git",
   "author": "Claudio Romero <25067140+romerorocha@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  }
 }
