@@ -3,7 +3,7 @@ export type SomeComponentProps = {
   body?: string
 }
 
-const SomeComponent = (props: SomeComponentProps) => {
+export const SomeComponent = (props: SomeComponentProps) => {
   const { title = 'Hello!', body = 'Hello, world!' } = props
 
   return (
@@ -13,5 +13,3 @@ const SomeComponent = (props: SomeComponentProps) => {
     </div>
   )
 }
-
-export default SomeComponent

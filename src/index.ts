@@ -1,1 +1,1 @@
-export { default as SomeComponent } from './SomeComponent'
+export * from './SomeComponent'

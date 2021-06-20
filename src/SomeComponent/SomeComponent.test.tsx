@@ -1,5 +1,5 @@
 import { getByRole, render, screen } from '@testing-library/react'
-import SomeComponent from '.'
+import { SomeComponent } from '.'
 
 describe('<SomeComponent />', () => {
   it('should render default title and body', () => {

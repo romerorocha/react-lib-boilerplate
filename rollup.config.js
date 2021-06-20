@@ -12,5 +12,13 @@ export default {
     { file: packageJson.main, format: 'cjs', sourcemap: true },
     { file: packageJson.module, format: 'esm', sourcemap: true },
   ],
-  plugins: [peerDepsExternal(), resolve(), commonjs(), typescript(), postcss()],
+  plugins: [
+    peerDepsExternal(),
+    resolve(),
+    commonjs(),
+    typescript({
+      tsconfig: './tsconfig.json',
+    }),
+    postcss(),
+  ],
 }

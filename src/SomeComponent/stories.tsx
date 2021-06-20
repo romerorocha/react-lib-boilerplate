@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react'
 
-import SomeComponent, { SomeComponentProps } from '.'
+import { SomeComponent, SomeComponentProps } from '.'
 
 export default {
   title: 'SomeComponent',
