@@ -2,10 +2,11 @@
   "name": "react-lib-boilerplate",
   "version": "1.0.0",
   "main": "build/index.js",
-  "module": "build/index.es.js",
+  "module": "build/index.esm.js",
   "files": [
     "build"
   ],
+  "types": "build/types/index.d.ts",
   "repository": "https://github.com/romerorocha/react-lib-boilerplate.git",
   "author": "Claudio Romero <25067140+romerorocha@users.noreply.github.com>",
   "license": "MIT",
@@ -41,6 +42,7 @@
     "rollup": "^2.52.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
     "ts-jest": "^27.0.3",
     "tslib": "^2.3.0",
     "typescript": "^4.3.4"
