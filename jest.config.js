@@ -1,12 +1,13 @@
 module.exports = {
-  roots: ['./src'],
-  setupFilesAfterEnv: ['./.jest/jest.setup.ts'],
-  moduleFileExtensions: ['ts', 'tsx', 'js'],
-  testPathIgnorePatterns: ['<rootDir>/build/', '<rootDir>/node_modules/'],
+  preset: 'ts-jest',
   testEnvironment: 'jsdom',
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest',
-  },
-  testMatch: ['**/*.test.(ts|tsx)'],
-  collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/**/*stories.tsx', '!src/index.ts'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/jest.setup.ts'],
+  testPathIgnorePatterns: ['<rootDir>/lib/', '<rootDir>/node_modules/'],
+  roots: ['./src'],
+  collectCoverageFrom: [
+    'src/**/*.{ts,tsx}',
+    '!src/**/*stories.tsx',
+    '!src/index.ts',
+    '!src/types/*',
+  ],
 }

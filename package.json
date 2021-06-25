@@ -12,9 +12,9 @@
   "license": "MIT",
   "scripts": {
     "clean": "rimraf lib",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "coverage": "jest --coverage",
+    "test": "jest --maxWorkers=4",
+    "test:watch": "jest --maxWorkers=4 --watch",
+    "coverage": "yarn test --coverage",
     "prebuild": "yarn clean",
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
