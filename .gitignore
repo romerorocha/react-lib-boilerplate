@@ -1,5 +1,5 @@
 # JavaScript output files
-build/
+lib/
 
 # Logs
 logs
