@@ -1,17 +1,17 @@
 {
   "name": "react-lib-boilerplate",
   "version": "1.0.0",
-  "main": "build/index.js",
-  "module": "build/index.esm.js",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "files": [
-    "build"
+    "lib"
   ],
-  "types": "build/types/index.d.ts",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/romerorocha/react-lib-boilerplate.git",
   "author": "Claudio Romero <25067140+romerorocha@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf build",
+    "clean": "rimraf lib",
     "test": "jest",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage",
