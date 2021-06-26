@@ -8,30 +8,21 @@ import { terser } from 'rollup-plugin-terser'
 import packageJson from './package.json'
 
 const plugins = [peerDepsExternal(), resolve(), commonjs(), postcss(), terser()]
+const exclude = ['node_modules', 'lib', 'src/**/*stories.tsx', 'src/**/*.test.*']
+const tsConfig = { declaration: true, declarationDir: './lib', rootDir: 'src/', exclude }
 
 export default [
   // CommonJS
   {
     input: 'src/index.ts',
     output: { dir: './', entryFileNames: packageJson.main, format: 'cjs' },
-    plugins: [
-      ...plugins,
-      typescript({
-        declaration: true,
-        declarationDir: './lib',
-        rootDir: 'src/',
-        exclude: ['node_modules', 'lib', 'src/**/*stories.tsx', 'src/**/*.test.*'],
-      }),
-    ],
+    plugins: [...plugins, typescript(tsConfig)],
   },
 
   // ES
   {
     input: 'src/index.ts',
     output: { file: packageJson.module, format: 'esm' },
-    plugins: [
-      ...plugins,
-      typescript({ exclude: ['node_modules', 'lib', 'src/**/*stories.tsx', 'src/**/*.test.*'] }),
-    ],
+    plugins: [...plugins, typescript({ exclude })],
   },
 ]
