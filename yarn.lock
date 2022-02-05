@@ -1888,16 +1888,16 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-links@^6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.4.3.tgz#733c933bfd4e34755f665574401d9b725cbd7653"
-  integrity sha512-yjDqulTder966NSis/N+Q+2nTnuUYYfHpvt2LHmf6oHhhkNdWzzzQ3if95BUC2SJMe/CvKlownq2Or64TlsFpg==
+"@storybook/addon-links@^6.4.18":
+  version "6.4.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.4.18.tgz#edb61db6c291056f7d3c64566aea436a6796c50a"
+  integrity sha512-yIbL57+tV1Ei2b7zTGU/T7muBFByTPm/8IN5SA5tSFYRTR9VtFuvBXco6I9Wz9GLN/REyVa4+AoDahokk7+vPQ==
   dependencies:
-    "@storybook/addons" "6.4.3"
-    "@storybook/client-logger" "6.4.3"
-    "@storybook/core-events" "6.4.3"
+    "@storybook/addons" "6.4.18"
+    "@storybook/client-logger" "6.4.18"
+    "@storybook/core-events" "6.4.18"
     "@storybook/csf" "0.0.2--canary.87bc651.0"
-    "@storybook/router" "6.4.3"
+    "@storybook/router" "6.4.18"
     "@types/qs" "^6.9.5"
     core-js "^3.8.2"
     global "^4.4.0"
@@ -1982,23 +1982,6 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.4.3.tgz#f34cb04289806f3d22be8a39c67fcd1dbdcbe137"
-  integrity sha512-LiS8NNZXpietvWw+A+jTVtVpVRARc2vq9R7KWAj07oFF91KD+U4PISAYbNMUVitej05CJJqT0jdtiW8G5pAr1g==
-  dependencies:
-    "@storybook/api" "6.4.3"
-    "@storybook/channels" "6.4.3"
-    "@storybook/client-logger" "6.4.3"
-    "@storybook/core-events" "6.4.3"
-    "@storybook/csf" "0.0.2--canary.87bc651.0"
-    "@storybook/router" "6.4.3"
-    "@storybook/theming" "6.4.3"
-    "@types/webpack-env" "^1.16.0"
-    core-js "^3.8.2"
-    global "^4.4.0"
-    regenerator-runtime "^0.13.7"
-
 "@storybook/addons@6.4.4":
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.4.4.tgz#3fc35fb31a5e6cdce7e789472d2e4149a04dbcde"
@@ -2032,29 +2015,6 @@
     fast-deep-equal "^3.1.3"
     global "^4.4.0"
     lodash "^4.17.21"
-    memoizerific "^1.11.3"
-    regenerator-runtime "^0.13.7"
-    store2 "^2.12.0"
-    telejson "^5.3.2"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
-
-"@storybook/api@6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.4.3.tgz#ae30c75be8559cb6b54195989b50a7e3ccf4cb23"
-  integrity sha512-aWD7wPhj+HF2XBmH6b7hgRJPFldDXzhYbtPqsq6ukCrGlJder8NsnL6wHzXlQWgxudw8u3oqM+Q9kLwNiz4yXg==
-  dependencies:
-    "@storybook/channels" "6.4.3"
-    "@storybook/client-logger" "6.4.3"
-    "@storybook/core-events" "6.4.3"
-    "@storybook/csf" "0.0.2--canary.87bc651.0"
-    "@storybook/router" "6.4.3"
-    "@storybook/semver" "^7.3.2"
-    "@storybook/theming" "6.4.3"
-    core-js "^3.8.2"
-    fast-deep-equal "^3.1.3"
-    global "^4.4.0"
-    lodash "^4.17.20"
     memoizerific "^1.11.3"
     regenerator-runtime "^0.13.7"
     store2 "^2.12.0"
@@ -2293,15 +2253,6 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/channels@6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-6.4.3.tgz#e70668d3dea06fcadf274c867a3430e3a5350787"
-  integrity sha512-E9JGZ53ITybokm7CEYARQjwdF/yDTu/R0tEo0MldPrNumb8yDjb4vxokBpvwbOMZ/n+QSU1BUIISm5bYt3owlQ==
-  dependencies:
-    core-js "^3.8.2"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/channels@6.4.4":
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-6.4.4.tgz#677f81d181b41167b97e6b90cc589c57e3ac0e94"
@@ -2367,14 +2318,6 @@
   version "6.4.18"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.4.18.tgz#4ad8ea7d67b17e5db8f15cffcc2f984df3479462"
   integrity sha512-ciBaASMaB2ZPksbuyDbp3++5SZxbhcihEpl+RQcAVV8g+TUyBZKIcHt8HNHicTczz5my1EydZovMh1IkSBMICA==
-  dependencies:
-    core-js "^3.8.2"
-    global "^4.4.0"
-
-"@storybook/client-logger@6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.4.3.tgz#1db1eab500f85c095239d581769c8e04e84994fe"
-  integrity sha512-/KmfJlihg2ldm9ml2sNIPOCdSIgF+TsRCET5W8vmwRUu/QUcs6mJMKlEWmmmlyATBp5DKQR+fABe2DccGuOWEQ==
   dependencies:
     core-js "^3.8.2"
     global "^4.4.0"
@@ -2613,13 +2556,6 @@
   version "6.4.18"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-6.4.18.tgz#630a19425eb387c6134f29b967c30458c65f7ea8"
   integrity sha512-lCT3l0rFs6CuVpD8+mwmj1lUTomGErySTxi0KmVd2AWQj8kJL90EfS0jHSU5JIXScDvuwXDXLLmvMfqNU+zHdg==
-  dependencies:
-    core-js "^3.8.2"
-
-"@storybook/core-events@6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-6.4.3.tgz#5fb3281a7cacba7fbf0d51a7a782cf751b27f6d7"
-  integrity sha512-UnXDO57U0jJYxXT4hVYQ7ze2wnCp3jrkRSyUPmMcyqpuLAWFhj+QYyna/7+geNID80MbVkkNLE+AEeSY+PPglQ==
   dependencies:
     core-js "^3.8.2"
 
@@ -3013,23 +2949,6 @@
     react-router-dom "^6.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/router@6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/router/-/router-6.4.3.tgz#3682793a14b8bb75105184450117e4df3505b820"
-  integrity sha512-13Xs9KK9vvnil7HPF8esuvwrpdb/DDn6SzMgEFJxKYVgJy6ASAu/rzFweezCZntT58F8kEqEn1sHMOjw4gN7hw==
-  dependencies:
-    "@storybook/client-logger" "6.4.3"
-    core-js "^3.8.2"
-    fast-deep-equal "^3.1.3"
-    global "^4.4.0"
-    history "5.0.0"
-    lodash "^4.17.20"
-    memoizerific "^1.11.3"
-    qs "^6.10.0"
-    react-router "^6.0.0"
-    react-router-dom "^6.0.0"
-    ts-dedent "^2.0.0"
-
 "@storybook/router@6.4.4":
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/@storybook/router/-/router-6.4.4.tgz#35e10ef754ecf95343a038974f1375277031edb7"
@@ -3122,24 +3041,6 @@
     "@emotion/is-prop-valid" "^0.8.6"
     "@emotion/styled" "^10.0.27"
     "@storybook/client-logger" "6.4.18"
-    core-js "^3.8.2"
-    deep-object-diff "^1.1.0"
-    emotion-theming "^10.0.27"
-    global "^4.4.0"
-    memoizerific "^1.11.3"
-    polished "^4.0.5"
-    resolve-from "^5.0.0"
-    ts-dedent "^2.0.0"
-
-"@storybook/theming@6.4.3":
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.4.3.tgz#97db57dde4cb1dfa1cc07181b8b1ece3557696ea"
-  integrity sha512-kXoDN8H6jfHLBawYB65E11yU7iRzej1HRG33CpY6ViPllV0IfIesUWXbrVQyJmTB2IQaoJpzwJN0Bt2KPaTOhw==
-  dependencies:
-    "@emotion/core" "^10.1.1"
-    "@emotion/is-prop-valid" "^0.8.6"
-    "@emotion/styled" "^10.0.27"
-    "@storybook/client-logger" "6.4.3"
     core-js "^3.8.2"
     deep-object-diff "^1.1.0"
     emotion-theming "^10.0.27"
